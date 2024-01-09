@@ -1,0 +1,33 @@
+table {
+    width: 600px;
+    
+}
+
+th, td {
+    padding: 7px;
+    font-weight: 600;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid black;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: aqua;
+}
+
+.numero {
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
